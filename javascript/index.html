@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Comfy House</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar">
+    <div class="navbar-center">
+      <span class="nav-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+      <img src="./images/logo.svg" alt="store logo">
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class="fas fa-cart-plus"></i>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
+    </div>
+  </nav>
+  <!--endnavbar-->
+  <!--hero-->
+  <header class="hero">
+    <div class="banner">
+      <h1 class="banner-title">Furniture Collection</h1>
+      <button type="button" class="banner-btn">Shop Now</button>
+    </div>
+  </header>
+  <!--endhero-->
+  <!--product-->
+  <section class="products">
+    <div class="section-title">
+      <h2>Our Products</h2>
+    </div>
+    <div class="products-center">
+      <!--single Products-->
+      <!-- <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpeg" alt="product" class="product-img">
+          <button type="button" class="bag-btn" data-id="1">
+            <i class="fas fa-shopping-cart"></i>
+            add to bag
+          </button>
+        </div>
+        <h3>Queen bed</h3>
+        <h4>$16</h4>
+      </article> -->
+      <!--end single Products-->
+    </div>
+  </section>
+  <!--endproduct-->
+  <!-- cart -->
+  <div class="cart-overlay">
+    <div class="cart">
+      <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+      </span>
+      <h2>You Cart</h2>
+      <div class="cart-content">
+        <!-- cartitem -->
+        <!-- <div class="cart-item">
+          <img src="./images/product-1.jpeg" alt="product">
+          <div>
+            <h4>Queen Bed</h4>
+            <h5>$16</h5>
+            <span class="remove-item">Remove</span>
+          </div>
+          <div>
+            <i class="fas fa-chevron-up"></i>
+            <p class="item-amout">1</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div> -->
+        <!-- endcartitem -->
+      </div>
+      <div class="cart-footer">
+        <h3>Your Total: $<span class="cart-total">0</span></h3>
+        <button type="button" class="clear-cart banner-btn" name="button">Clear Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- endcart -->
+  <!-- contentful -->
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+  <!-- app js -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>
